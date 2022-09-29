@@ -40,7 +40,7 @@ public class GameManagerX : MonoBehaviour
         if(isGameActive)
         {
             timeLeft -= Time.deltaTime;
-            timerText.SetText("Time :"+Mathf.Round(timeLeft));
+            timerText.SetText("Time :" + Mathf.Round(timeLeft));
             if (timeLeft<0)
             {
                 GameOver();
